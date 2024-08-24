@@ -1,3 +1,4 @@
 streamlit
 vertexai
 python-dotenv==1.0.1
+groq
