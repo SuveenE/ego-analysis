@@ -4,6 +4,7 @@
 Clone the Github repo.
 ```
 git clone https://github.com/SuveenE/ego-analysis.git
+```
 
 Install the dependencies.
 ```
