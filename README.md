@@ -14,5 +14,5 @@ pip3 install -r requirements.txt
 ## Run the app
 
 ```
-streamlist run main.py
+streamlit run main.py
 ```
