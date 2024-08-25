@@ -77,7 +77,7 @@ def get_job_result(job_id):
         time.sleep(5)  # Wait for 5 seconds before checking again
 
 def main():
-    audio_file_path = "path/to/your/audio/file.mp3"
+    audio_file_path = "./test.mp3"
     
     if not os.path.exists(audio_file_path):
         print(f"Audio file not found: {audio_file_path}")
