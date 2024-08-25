@@ -1,0 +1,3 @@
+[submodule "extrlibs/hume-api-examples"]
+	path = extrlibs/hume-api-examples
+	url = https://github.com/HumeAI/hume-api-examples.git
