@@ -4,8 +4,11 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credential.json"
 
-vertexai.init(project=os.getenv("PROJECT_ID"), location="joingobi.com")
+vertexai.init(project="458181737688", location="us-central1")
+
+
 
 def analyse_video(video_file):
     model = GenerativeModel("gemini-1.5-flash-001")
